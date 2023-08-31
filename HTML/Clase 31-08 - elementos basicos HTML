@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 31/08</title>
+</head>
+
+
+<body>
+
+    
+
+
+
+    <h1>200 OK</h1>
+
+    <img height="200" src="https://http.cat/images/200.jpg" alt="Codigo HTTP 200">
+
+    <h2>Description</h2>
+
+    <p>
+        The <i>HTTP 200 OK</i> success status response code indicates that the request has succeeded. A 200 response is
+        cacheable by default.
+
+        The meaning of a success depends on the HTTP request method:
+
+    <p>
+        <b>GET:</b> The resource has been fetched and is transmitted in the message body.
+    </p>
+    <p>
+        <b>HEAD:</b> The representation headers are included in the response without any message body
+    </p>
+
+    <br>POST: The resource describing the result of the action is transmitted in the message body
+    <br>TRACE: The message body contains the request message as received by the server.
+    The successful result of a PUT or a <br>DELETE is often not a 200 OK but a 204 No Content (or a 201 Created when the
+    resource is uploaded for the first time).
+    </p>
+</body>
+
+</html>
