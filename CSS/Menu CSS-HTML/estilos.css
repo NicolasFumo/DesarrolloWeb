@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    background-color: rgb(49, 51, 53);
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+}
+
+li{
+    float: left;
+    border-right: 2px solid beige;
+}
+
+li:first-child{
+    border-left: 2px solid beige;
+}
+
+li:last-child{
+    float: right;
+    border-left: 2px solid beige;
+}
+
+li a{
+    color:aliceblue;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+.activo{
+    background-color: rgb(84, 109, 134);
+}
+
+li a:not(.activo):hover{
+    background-color: rgb(13, 114, 216);
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
